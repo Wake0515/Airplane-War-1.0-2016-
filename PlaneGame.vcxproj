@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9DAB6892-C119-41A7-881A-5DFA12D46C3E}</ProjectGuid>
+    <RootNamespace>PlaneGame</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25420.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="bishaping.cpp" />
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="bossball.cpp" />
+    <ClCompile Include="bossplane.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="lanping.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MyPlane.cpp" />
+    <ClCompile Include="PlaneGame.cpp" />
+    <ClCompile Include="PlaneGameDoc.cpp" />
+    <ClCompile Include="PlaneGameView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tool.cpp" />
+    <ClCompile Include="zidan.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="bishaping.h" />
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="bossball.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="lanping.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MyPlane.h" />
+    <ClInclude Include="PlaneGame.h" />
+    <ClInclude Include="PlaneGameDoc.h" />
+    <ClInclude Include="PlaneGameView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="bossplane.h" />
+    <ClInclude Include="tool.h" />
+    <ClInclude Include="zidan.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\dell\Desktop\13025JN6-2_副本_副本.bmp" />
+    <Image Include="C:\Users\dell\Desktop\20160720041927386_副本.bmp" />
+    <Image Include="C:\Users\dell\Desktop\background1.bmp" />
+    <Image Include="C:\Users\dell\Desktop\img_bullet_副本.png" />
+    <Image Include="C:\Users\dell\Pictures\20160717050629452.bmp" />
+    <Image Include="C:\Users\dell\Pictures\20160720041927386.bmp" />
+    <Image Include="C:\Users\dell\Pictures\必杀药瓶.bmp" />
+    <Image Include="C:\Users\dell\Pictures\蓝瓶.bmp" />
+    <Image Include="C:\Users\dell\Pictures\血瓶.bmp" />
+    <Image Include="plane\ball.BMP" />
+    <Image Include="plane\ball1.BMP" />
+    <Image Include="plane\ball2.bmp" />
+    <Image Include="plane\ball3.BMP" />
+    <Image Include="plane\bitmap1.bmp" />
+    <Image Include="plane\bomb.bmp" />
+    <Image Include="plane\enemy.bmp" />
+    <Image Include="plane\explosion.BMP" />
+    <Image Include="plane\me.bmp" />
+    <Image Include="plane\plane1.bmp" />
+    <Image Include="plane\plane2.bmp" />
+    <Image Include="plane\plane3.bmp" />
+    <Image Include="plane\thunder.bmp" />
+    <Image Include="res\PlaneGame.ico" />
+    <Image Include="res\PlaneGameDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="飞机大战用图\509b9fcb39dbb6fd13b4aaaa0b24ab18962b370b.jpg_副本.bmp" />
+    <Image Include="飞机大战用图\background1.bmp" />
+    <Image Include="飞机大战用图\boss子弹1.bmp" />
+    <Image Include="飞机大战用图\boss子弹2.bmp" />
+    <Image Include="飞机大战用图\boss机.bmp" />
+    <Image Include="飞机大战用图\img_bullet_副本.bmp" />
+    <Image Include="飞机大战用图\必杀技.bmp" />
+    <Image Include="飞机大战用图\必杀药瓶.bmp" />
+    <Image Include="飞机大战用图\我方飞机.bmp" />
+    <Image Include="飞机大战用图\敌机.bmp" />
+    <Image Include="飞机大战用图\敌机子弹.bmp" />
+    <Image Include="飞机大战用图\敌机子弹2.bmp" />
+    <Image Include="飞机大战用图\背景2.bmp" />
+    <Image Include="飞机大战用图\背景3.bmp" />
+    <Image Include="飞机大战用图\背景4.bmp" />
+    <Image Include="飞机大战用图\背景5.bmp" />
+    <Image Include="飞机大战用图\蓝瓶.bmp" />
+    <Image Include="飞机大战用图\血瓶.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PlaneGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="res\PlaneGame.rc2" />
+    <None Include="飞机大战用图\wave1.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bgm\Dreamtale - Intro： The Dawn.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="PlaneGame.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CBall" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAIAAAABACAgAAAAAAAAAAAAAAAAAAAQAAAAAAEAA=</HashCode>
+      <FileName>Ball.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameObject" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAgAAAAAAAAAAAAIAAAAAAQAAgAAAAEA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CObject" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAQAQAAAAACAAAgQAAADAAAAAAEUAgAEAAAAA=</HashCode>
+      <FileName>e:\Visual Studio 2015\VC\atlmfc\include\afx.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cbishaping" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAIAAAAAAAAgAAAAAAAAAAQAAAAAgAgQAAAAEABAA=</HashCode>
+      <FileName>bishaping.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBomb" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAAAAAgAAAAAAAAAAIAAAAAAAARABABAAAAA=</HashCode>
+      <FileName>Bomb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cbossball" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEEAIBAAAAAAAgAAAAAAAAAAAAAAAAAAEQAQAAAAAAA=</HashCode>
+      <FileName>bossball.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBossplane" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAKAAAAAAAAgAAAAQAAAIAQAAEAAgAAQAAAABABgA=</HashCode>
+      <FileName>bossplane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEnemy" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAIAAgAAAAAgAAAAAACAAAQBAAAAgACQAAAABABAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CExplosion" Collapsed="true">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAIAAAABAAAgAAAAAAAAAAAAAAAAAAAQAQBAAAAAA=</HashCode>
+      <FileName>Explosion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clanping" Collapsed="true">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAIAAAABAAAgAAAAAAAACAQAAEAAgAAQAAAAAABAA=</HashCode>
+      <FileName>lanping.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainFrame" Collapsed="true">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAACAAAiAAAgCAAAgAAAAAAAAAAABA=</HashCode>
+      <FileName>MainFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFrameWnd" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>k0yJUpw3ZFmZ0rrIzxMZ3AwUwfcQUHEOZo56pYUD3rA=</HashCode>
+      <FileName>e:\Visual Studio 2015\VC\atlmfc\include\afxwin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWnd" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>v977//bff7//b//96f/v/f/97/+e33f39uv7/d///78=</HashCode>
+      <FileName>e:\Visual Studio 2015\VC\atlmfc\include\afxwin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCmdTarget" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQBRAgFAIUREFAwCNAoxmIAxQRSASAACwAAQDABAMA=</HashCode>
+      <FileName>e:\Visual Studio 2015\VC\atlmfc\include\afxwin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlaneGameApp" Collapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAQAAAABAAAAAAA=</HashCode>
+      <FileName>PlaneGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWinApp" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>57Zg4NJZMRYwEDOJuKSX1EtlESlJxcwkSSNipVAHtHc=</HashCode>
+      <FileName>e:\Visual Studio 2015\VC\atlmfc\include\afxwin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CWinThread" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAAQwAICAIBhgQCAABkAABAAEAgQYAgAAAgAgJCAM=</HashCode>
+      <FileName>e:\Visual Studio 2015\VC\atlmfc\include\afxwin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlaneGameDoc" Collapsed="true">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAACAAAgAAAACAgAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>PlaneGameDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDocument" Collapsed="true">
+    <Position X="10" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>F0iRGAEE3hIQGAghCcMKuCJisGjggtJWHCDsAwAQ4qA=</HashCode>
+      <FileName>e:\Visual Studio 2015\VC\atlmfc\include\afxwin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlaneGameView" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAEIAABAABAIgAGGIRAwAQAgQAAQAAABAgMAAAAQYA=</HashCode>
+      <FileName>PlaneGameView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CView" Collapsed="true">
+    <Position X="12" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIKBACQAAEBSEACCmABgjSAAgCQQEISAAAwYKgEoFQA=</HashCode>
+      <FileName>e:\Visual Studio 2015\VC\atlmfc\include\afxwin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ctool" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAIAAAAAAAAgAAAAAAAAAAQAECAAgEAQAAAAAABAA=</HashCode>
+      <FileName>tool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CZidan" Collapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAAAAAgAAAAAABAAAAAAAAAARAQAAAAAAAAA=</HashCode>
+      <FileName>zidan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
